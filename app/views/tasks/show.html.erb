@@ -2,4 +2,5 @@
 <p> <%= @task.details %> </p>
 <p> <%= @message %> </p>
 <%= link_to 'edit', edit_task_path  %> <br>
+ <%= link_to "back to tasks", tasks_path %> <br>
 <%= link_to 'delete', task_path(@task), method: :delete, data: { confirm: "are you sure you gay lord? "}  %>
